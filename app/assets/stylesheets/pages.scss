@@ -43,7 +43,6 @@
     font-family: 'PT Mono', monospace;
     color: #FFB131;
     font-weight: bold;
-    font-size: 45pt;
     margin-top: 20px;
 }
 
@@ -61,6 +60,21 @@
 .titulo{
 	padding-left: 60px;
 	color: #BDBEC0;
+}
+
+.titulo2{
+	color: #FFB131;
+	font-size: 50pt;
+	font-family: 'Carrois Gothic SC', sans-serif;
+	font-weight: bold;
+}
+
+.parrafos{
+	color: #777;
+	text-align: justify;
+	font-size: 14pt;
+	font-family: 'Rajdhani', sans-serif;
+	font-weight: medium;
 }
 
 .cuarto{
