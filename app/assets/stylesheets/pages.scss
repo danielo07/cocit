@@ -1,0 +1,83 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in applicationcss.
+// You can use Sass (SCSS) here: http://sass-langcom/
+*{
+	margin: 0px;
+	padding: 0px;
+
+}
+
+.primera {
+    min-height: 80vh;
+    background-color: #FFB131;
+}
+
+.bolitas {
+	margin-top: 65px;
+}
+
+.flex{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: right;
+	margin-right: 0px;
+}
+
+.segunda {
+    min-height: 100vh;
+    font-family: 'PT Mono', monospace;
+    color: #FFB131;
+    font-weight: bold;
+    padding-top: 150px;
+}
+
+.logo{
+	top: 0px;
+	width: 550px;
+
+}
+
+.tercero{
+    min-height: 60vh;
+    font-family: 'PT Mono', monospace;
+    color: #FFB131;
+    font-weight: bold;
+    font-size: 45pt;
+    margin-top: 20px;
+}
+
+.cuadro{
+	width: 100%;
+	height: 100%;
+	background: #ffffff;
+}
+
+.nopadding{
+	padding-left: 0px !important;
+	padding-right: 0px !important
+}
+
+.titulo{
+	padding-left: 60px;
+	color: #BDBEC0;
+}
+
+.cuarto{
+	min-height: 100vh;
+
+}
+
+.clientes{
+	padding-top: 200px;
+}
+
+.clientes2{
+	padding-top: 100px;
+}
+
+
+[class*=' imghvr-'] {
+	background-color: #FFB131;
+}
+
