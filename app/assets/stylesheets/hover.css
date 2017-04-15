@@ -2189,9 +2189,9 @@
   z-index: -1;
   left: 50%;
   right: 50%;
-  bottom: 0;
-  background: #2098D1;
-  height: 4px;
+  bottom: 15px;
+  background: #FFB131;
+  height: 2px;
   -webkit-transition-property: left, right;
   transition-property: left, right;
   -webkit-transition-duration: 0.3s;
@@ -2200,8 +2200,8 @@
   transition-timing-function: ease-out;
 }
 .hvr-underline-from-center:hover:before, .hvr-underline-from-center:focus:before, .hvr-underline-from-center:active:before {
-  left: 0;
-  right: 0;
+  left: 20px;
+  right: 20px;
 }
 
 /* Underline From Right */
