@@ -1,0 +1,40 @@
+<head>
+	<meta charset="UTF-8">
+	<title>COCIT</title>
+
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+	<script src="https://use.fontawesome.com/e8ebcfe0ff.js"></script>
+	<link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Aldrich|Carrois+Gothic+SC|Finger+Paint|Rajdhani|Ubuntu+Condensed" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet">
+</head>
+
+<div class="fondo" style="padding:150px 500px 100px 100px; ">
+
+<p class="titulo">CONTACTO</p>
+<%= form_tag send_path,method: :post do %>
+
+  <div class="form-group">
+  <input type="text" class="form-control" placeholder="NOMBRE" style="border-radius: 76px 76px 76px 76px;" <%= text_field_tag :name %> <br/>
+  </div>
+
+  <div class="form-group">
+  <input type="email" class="form-control" placeholder="E-MAIL" style="border-radius: 76px 76px 76px 76px;" <%= text_field_tag :email %> <br/>
+  </div>
+
+  <div class="form-group">
+  <input type="text" class="form-control" placeholder="ASUNTO" style="border-radius: 76px 76px 76px 76px;" <%= text_field_tag :subject %><br/> 
+  </div>
+
+  <textarea class="form-control" rows="5" placeholder="MENSAJE" style="border-radius: 10px 10px 10px 10px;" <%= text_area_tag :content %> <br/>
+  </textarea>
+
+<button class="btn btn-default" style="border-radius: 76px 76px 76px 76px; font-family: 'Carrois Gothic SC', sans-serif;" <%= submit_tag 'ENVIAR'%> ENVIAR </button>
+
+<% end %>
+
+</div>
