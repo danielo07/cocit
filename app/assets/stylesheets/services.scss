@@ -2,6 +2,11 @@
 // They will automatically be included in applicationcss.
 // You can use Sass (SCSS) here: http://sass-langcom/
 
+.hide-bullets {
+list-style:none;
+margin-left: -40px;
+margin-top:20px;
+}
 
 .primera{
 	width: 100%;
@@ -16,7 +21,7 @@
 .servicios2{
 	color: #FFB131;
 	font-family: 'Carrois Gothic SC', sans-serif;
-	padding: 40px;
+	padding: 20px;
 }
 
 .serv1{

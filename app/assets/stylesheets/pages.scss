@@ -17,10 +17,10 @@
 
 .segunda {
     min-height: 100vh;
-    font-family: 'PT Mono', monospace;
+    font-family: 'Rajdhani', sans-serif;
     color: #FFB131;
     font-weight: bold;
-    padding-top: 600px;
+    padding-top: 170px;
 }
 
 .logo{
@@ -31,7 +31,7 @@
 
 .tercero{
     min-height: 60vh;
-    font-family: 'PT Mono', monospace;
+    font-family: 'Rajdhani', sans-serif;
     color: #FFB131;
     font-weight: bold;
     margin-top: 20px;
@@ -51,12 +51,18 @@
 .titulo{
 	padding-left: 60px;
 	color: #BDBEC0;
+	font-family: 'Rajdhani', sans-serif;
 }
 
 .titulo2{
 	color: #FFB131;
 	font-size: 50pt;
-	font-family: 'Carrois Gothic SC', sans-serif;
+	font-family: 'Rajdhani', sans-serif;
+	font-weight: bold;
+}
+
+.sub{
+	font-family: 'Rajdhani', sans-serif;
 	font-weight: bold;
 }
 
@@ -74,11 +80,11 @@
 }
 
 .clientes{
-	padding-top: 200px;
+	padding-top: 150px;
 }
 
 .clientes2{
-	padding-top: 100px;
+	padding-top:70px;
 }
 
 

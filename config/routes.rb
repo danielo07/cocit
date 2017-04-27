@@ -9,6 +9,7 @@ Rails.application.routes.draw do
   get 'about' =>'pages#nosotros'
   get 'catalogo' => 'portfolio#portafolio'
   get 'servicios' => 'services#servicios'
+  get 'clientes' => 'clients#clientes'
 
   get 'send' => 'send#contact'
   post 'send' => 'send#create'

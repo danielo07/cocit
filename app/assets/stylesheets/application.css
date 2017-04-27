@@ -14,4 +14,8 @@
  *= require_self
  */
 
-
+img.logo{
+	max-width: 100%;
+    height: auto;
+    width: auto/9; /* Bug de ie8 */
+}
