@@ -30,7 +30,7 @@ body {
 
 /* Carousel base class */
 .carousel {
-  height: 676px;
+  height: 100%;
   margin-bottom: 0px;
 }
 /* Since positioning the image, we need to help out the caption */
@@ -49,6 +49,7 @@ body {
   top: 0;
   left: 0;
   min-width: 100%;
+  min-height: 100%;
 }
 
 
