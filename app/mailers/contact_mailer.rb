@@ -1,5 +1,5 @@
 class ContactMailer < ApplicationMailer
-	default from: "contacto@cocit.com"
+	default from: "ricardo.daniel0719@gmail.com"
 
 	def contact_send(params)
 		@parameters=params
