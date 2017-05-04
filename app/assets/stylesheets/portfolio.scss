@@ -17,3 +17,29 @@
 	font-size: 17pt;
 	opacity: 6;
 }
+
+p.banners{
+    padding-top: 200px;
+    position: absolute;
+    color: #FFFFFF;
+   	font-size: 70pt;
+	font-family: 'Rajdhani', sans-serif;
+	font-weight: bold;
+}
+
+p.banners2{
+    padding-top: 320px;
+    position: absolute;
+    color: #FFFFFF;
+   	font-size: 25pt;
+	font-family: 'Rajdhani', sans-serif;
+	font-weight: bold;
+}
+
+.flex{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: right;
+	margin-right: 0px;
+}

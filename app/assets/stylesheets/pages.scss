@@ -20,11 +20,11 @@
 }
 
 .segunda {
-    min-height: 100vh;
+    min-height: 80vh;
     font-family: 'Rajdhani', sans-serif;
     color: #FFB131;
     font-weight: bold;
-    padding-top: 170px;
+    /*padding-top: 50px;*/
 }
 
 .logo{
@@ -53,7 +53,7 @@
 }
 
 .titulo{
-	padding-left: 60px;
+	padding: 30px;
 	color: #BDBEC0;
 	font-family: 'Rajdhani', sans-serif;
 }
@@ -61,6 +61,13 @@
 .titulo2{
 	color: #FFB131;
 	font-size: 50pt;
+	font-family: 'Rajdhani', sans-serif;
+	font-weight: bold;
+}
+
+.titulo3{
+	padding: 50px;
+	color: #FFB131;
 	font-family: 'Rajdhani', sans-serif;
 	font-weight: bold;
 }
@@ -78,13 +85,31 @@
 	font-weight: medium;
 }
 
+p.banners{
+    padding-top: 200px;
+    position: absolute;
+    color: #FFFFFF;
+   	font-size: 70pt;
+	font-family: 'Rajdhani', sans-serif;
+	font-weight: bold;
+}
+
+p.banners2{
+    padding-top: 320px;
+    position: absolute;
+    color: #FFFFFF;
+   	font-size: 25pt;
+	font-family: 'Rajdhani', sans-serif;
+	font-weight: bold;
+}
+
+.container1{
+	padding-left: 200px;
+}
+
 .cuarto{
 	min-height: 100vh;
 
-}
-
-.clientes{
-	padding-top: 150px;
 }
 
 .clientes2{
