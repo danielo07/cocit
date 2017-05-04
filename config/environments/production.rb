@@ -77,16 +77,20 @@ Rails.application.configure do
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
 
-
+#Este bloque funciona para el envio de correo!!
 config.action_mailer.delivery_method = :smtp
- config.action_mailer.smtp_settings = {
+  config.action_mailer.default_url_options = { host:'localhost', port: '3000' }
+  config.action_mailer.perform_deliveries = true
+  config.action_mailer.raise_delivery_errors = true
+  config.action_mailer.default :charset => "utf-8"
+  config.action_mailer.smtp_settings = {
       :address => "smtp.gmail.com",
       :port => 587,
+      :domain => 'localhost:3000',
+      :user_name => "ricardo.daniel0719@gmail.com",
+      :password => "Carorichi77!",
       :authentication => :plain,
-      :user_name => ENV['ricardo.daniel0719@gmail.com'],
-      :password => ENV['Carorichi77!'],
       :enable_starttls_auto => true
-    }
+  }
 
-config.action_mailer.perform_deliveries = true
 end
